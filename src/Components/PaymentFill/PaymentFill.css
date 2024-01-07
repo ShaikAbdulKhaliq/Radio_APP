@@ -1,0 +1,109 @@
+.Payment_fill_parent {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px
+}
+
+#payment_header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+#Payement_arrow_left {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px dotted #797979;
+  padding: 0.3rem;
+}
+
+#payment_para {
+  margin-left: 4%;
+  color: #FFFFFF;
+  font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);
+}
+
+
+.Card_Deatilas {
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.Card_details_header p {
+  color: #FFF;
+  font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.payment_fill_Sub_Details {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+
+}
+
+.paymentfill_details {
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  border: 0.5px solid #B8B8B8;
+  background-color: transparent
+}
+
+
+#CVV {
+  width: 35%
+}
+
+#Name_on_the_card {
+  margin-top: 2%;
+}
+
+#Card_nickname {
+  margin-top: 2%;
+}
+
+.Card_Deatilas input::placeholder {
+  color: #d6d6d6a9;
+  font-size: clamp(0.25rem, 0rem + 4vw, 25rem);
+}
+
+.Card_details_header {
+  width: 100%;
+}
+
+.Save_Next_btn {
+  width: 100%;
+  margin-top: 5%;
+  border-radius: 6px;
+  background: #FFF;
+}
+
+.Save_Next_btn button {
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  background: #FFF;
+  padding: 10px;
+  color: #0E3270;
+  font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.144px;
+}

@@ -1,0 +1,184 @@
+.MainStation{
+    width:100%;
+    height: 100%;
+    /* background-image: url("./images//Gradient 2.png"); */
+    background: inherit;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.mainnav {
+  padding: 5% 5% 0% 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+.rightnav {
+  width: 150%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15%;
+  border-bottom: 1px solid white;
+}
+#showInput {
+  color: white;
+  border: none;
+
+  /* Regular/14px */
+
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: transparent;
+  width: 150%;
+}
+.mini-container {
+  height: 36px;
+  margin-top: 16px;
+  margin-left: 4%;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  position: relative;
+}
+.mini-container::-webkit-scrollbar {
+  height: 0;
+}
+
+.mini-container > p {
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: 0 8px;
+  margin-right: 8px;
+  color: #fff;
+
+  /* 12px */
+
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.009rem;
+}
+
+.stationdiv {
+  width: 90%;
+  height: 3rem;
+  padding: 0%;
+  margin: 5%;
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5%;
+}
+.imageleft {
+  margin-top: 3%;
+  width: 3rem;
+  flex-shrink: 0;
+}
+.rightdivs {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  margin-top: 3%;
+  margin-right: 4%;
+}
+.imgtxt {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  gap: 10%;
+}
+.texts {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+}
+.imgdot {
+  width: 0.25rem;
+  height: 0.25rem;
+  margin-top: 30%;
+}
+.txt1 {
+  color: #fff;
+
+  /* Medium/16px */
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.txt2 {
+  color: #fff;
+
+  /* Regular/14px */
+
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  opacity: 0.7;
+}
+.livetxt {
+  color: #fff;
+
+  /* Regular/16px */
+
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 8%;
+}
+
+.imggraph {
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.perfectimg {
+  margin-bottom: 40%;
+}
+
+.imageleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imagel3 {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50%;
+}
+.imagel4 {
+  width: 80%;
+  height: 70%;
+  margin-bottom: 35%;
+}
+.lastradio {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  top: 200.7%;
+}
+.svgline {
+  width: 0%;
+  left: 10%;
+  margin-left: 5%;
+}
+.radlast {
+  margin-top: 97%;
+}
+
+.backarrow-scale{
+    transform: scale(1.5);
+    transition: all 0.5 ease;
+}

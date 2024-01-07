@@ -1,0 +1,126 @@
+.Audio_experience_Parent {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: #19161C;
+    background-image: url("../../../public/images/AudioExperience06.png");
+    background-size: 100%; /* Adjust as needed: cover, contain, or specific values */
+    background-position: center; /* Adjust as needed: center, top, bottom, left, right, etc. */
+    background-repeat: no-repeat; /* Adjust as needed: repeat, repeat-x, repeat-y, no-repeat */
+}
+
+.Audio_experience_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Audio_experience_header p {
+    color: #FFF;
+    font-size: clamp(0.428125rem, -0.0004rem + 6.8572vw, 42.856875rem); 
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Audio_experience_body {
+    width: 100%;
+}
+
+.Audio_experience_body p {
+    color: #FFF;
+    font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.big_line {
+    width: 100%;
+}
+
+.big_line img {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.Audio_btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Audio_btn p {
+    color: #FFF;
+    font-size: 24px;
+    font-size: clamp(0.428125rem, -0.0004rem + 6.8572vw, 42.856875rem);
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Ellipse_btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.Ellipse_btn p {
+    color: #F1F0F0;
+    font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* figma */
+
+.Swipe_Book_Ticket_card {
+    max-width: 358px;
+    height: 248px;
+    padding: 12px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 16px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.10);
+    background-blend-mode: overlay;
+    backdrop-filter: blur(41.01167297363281px);
+    gap: 2px;
+}
+
+.Repeat_content_style {
+    color: #FFF;
+    font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.Repeat_parent_Styles {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.Membersandprice {
+    display: flex;
+    gap: 35px;
+}
+
+.Membersandprice div {
+    display: flex;
+    gap: 10px;
+}

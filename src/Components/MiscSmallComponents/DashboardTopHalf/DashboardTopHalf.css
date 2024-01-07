@@ -1,0 +1,164 @@
+.top-half-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  padding: 16px;
+}
+
+.top-container {
+  width: 100%;
+  height: 28%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.logo-header {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-half-container .logo > img {
+  width: 50%;
+}
+
+.search {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid white;
+}
+
+.search > input {
+  width: 100%;
+  height: 80%;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+}
+
+.search > input::placeholder {
+  color: #fff;
+}
+
+.search > svg {
+  height: 100%;
+}
+
+.heading {
+  height: 32px;
+  margin-inline: 0px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.heading > p {
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.large-card-container::-webkit-scrollbar {
+  height: 0px;
+}
+
+.genre-card {
+  min-width: 75px;
+  height: 75px;
+  padding-top: 16px;
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(
+    30deg,
+    rgba(106, 188, 255, 0.495),
+    rgba(92, 182, 255, 0.471),
+    rgba(53, 164, 255, 0.388)
+  );
+}
+
+.genre-card > div {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.genre-card > div > svg {
+  width: 100%;
+}
+
+.genre-card > p {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 14px;
+}
+
+.sort-container {
+  margin-top: 16px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.sort-container::-webkit-scrollbar {
+  height: 0;
+}
+
+.sort-container > p {
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: 0 8px;
+  margin-right: 8px;
+}

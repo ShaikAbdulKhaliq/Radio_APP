@@ -1,0 +1,149 @@
+.EntryPageInterest {
+  width: 100%;
+  height: min(100vh, 800px);
+}
+
+.main-container {
+  height: 100%;
+  max-height: 98vh;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  color: #0e3270;
+}
+
+.para {
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-bottom: 1%;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.para-2 {
+  margin-left: 3%;
+  color: #b1b1b1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+ 
+}
+
+.card-img-top {
+  width: 45%;
+  max-width: 100%;
+  height: auto;
+  margin: 5px 8px;
+  padding: 2px 2px;
+  display: inline;
+  transition: background-color 0.5s ease;
+  outline: none;
+}
+.my-container {
+  width: 100%;
+  max-height: 90vh;
+  display: flex;
+  display: unset;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-img-top:hover {
+  background-color: #ffffff;
+  border-radius: 5%;
+}
+
+.card-img-top-hover{
+  background-color: #ffffff;
+  border-radius: 5%;
+}
+
+.my-card {
+  width: 50%;
+  padding: 0px 8px;
+  display: inline;
+ 
+}
+.my-card span {
+  position: relative;
+  color: #fff;
+  bottom: 30px;
+  left: 5px;
+  font-size: small;
+}
+.save-btn {
+  width: 95%;
+  max-width: 100%;
+  padding: 12px 70px;
+  padding-left: 71px;
+  margin: 0 auto;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #0e3270;
+  background-color: #fff;
+  font-weight: 700 ;
+  z-index: 100;
+  font-weight: 700;
+  right: 2%;
+}
+.skip-container {
+  width: 500px;
+  max-width: 315px;
+  margin: auto;
+  margin-bottom: 1%;
+  margin-right: -2%;
+  margin-top: -7%;
+  position: relative;
+  text-align: right;
+  align-self: center;
+  z-index: 3;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: normal;
+  color: rgba(255, 255, 255, 0.7);
+  right: 8%;
+  top: -3%;
+ 
+}
+
+.my-container span {
+  position: absolute;
+  margin-top: 55%;
+  margin-left: -87%;
+  color: #fff;
+  font-size: 0.9rem;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; 
+}
+
+.scrollable-image-style{
+  height: 81vh;
+  margin-bottom: 1.5%;
+  margin-top: 7%;
+  overflow-y: scroll;
+  
+}
+
+.save_btn_Container{
+  margin-top: 15px;
+}

@@ -1,0 +1,78 @@
+.hover-image1 {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  flex-shrink: 0;
+  left: 85%;
+  top: 45%;
+  z-index: 1;
+}
+
+/* SpeechBox.css */
+
+.speech-box1 {
+  width: 13.875rem;
+  height: 3.5rem;
+  padding: 10px;
+  flex-shrink: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Adjust the maximum width as needed */
+
+  background: url("../../../../public/images/dashboard-pop-2Rectangle\ 749.png");
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  margin: 20px;
+  z-index: 1;
+  left: 8%;
+}
+
+.speech-box p {
+  margin: 0;
+}
+
+
+.popup-overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.sp1 {
+  color: #000;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.span {
+  color: #000;
+
+  /* Medium/16px */
+  font-family: Satoshi Variable;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sp2 {
+  color: #868686;
+  font-family: Satoshi Variable;
+  font-size: 0.6875rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.009rem;
+}

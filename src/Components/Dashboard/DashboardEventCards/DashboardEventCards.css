@@ -1,0 +1,386 @@
+.dashboard-event-cards {
+  width: 100%;
+  height: 60%;
+}
+
+.dashboard-popular-header {
+  padding: 11px 15px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.dashboard-popular-City_header{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-popular-City_header p{
+  font-size: clamp(0.428125rem, -0.0004rem + 6.8572vw, 42.856875rem);  
+  color: #FFF;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.dashboard-popular-Recommendation p{
+  font-size: clamp(0.25rem, 0rem + 4vw, 25rem);
+  color: #FFF;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.dashboard-cards-collection {
+  padding: 0 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.eventcard-hover{
+  box-shadow: -2px -2px 40px 6px rgba(249,249,249,0.75) !important;
+  -webkit-box-shadow: -2px -2px 14px 1px rgba(249,249,249,0.75)  !important;
+  -moz-box-shadow: -2px -2px 40px 6px rgba(249,249,249,0.75) !important;
+}
+
+.dashboard-cards-collection-front-card
+{
+  height: 100%;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.dashboard-cards-collection-front-card {
+
+  position: absolute;
+
+  left: 21%;
+    top: 37%;
+}
+
+.dashboard-cards-collection-front-cardchangesize{
+    width: 93%;
+    height: 100%;  
+    max-height: 27vh;
+    padding: 1%;
+    position: absolute;
+    z-index: 11;
+    left: 15px;
+    top: 38vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    
+}
+
+.dashboard-cards-collection-front-card-text {
+  margin-top: 24vh;
+  padding: 0px 7px;
+ 
+}
+/* conditionally manipulating the css */
+.dashboard-cards-collection-front-card-text-manipulation{
+  margin-top: 7vh;
+  padding: 0px 22px;
+  ;
+}
+
+.dashboard-cards-collection-front-card-text-manipulation p{
+  font-size: clamp(0.428125rem, -0.0004rem + 6.8572vw, 42.856875rem);  
+  color: #FFF;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal
+}
+
+.dashboard-cards-collection-front-card-text-manipulation>span{
+  text-shadow: 0px 0px 7px #000;
+  font-weight: 400;
+  font-size: clamp(0.195625rem, -0.0006rem + 3.1392vw, 19.619375rem);
+  color: #FFF;
+  font-style: normal;
+  line-height: normal;
+}
+
+.dashboard-cards-collection-front-card-text p{
+  font-size: clamp(0.428125rem, -0.0004rem + 6.8572vw, 42.856875rem);  
+  color: #FFF;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.dashboard-cards-collection-front-card-text > span {
+  text-shadow: 0px 0px 7px #000;
+  font-weight: 400;
+  font-size: clamp(0.195625rem, -0.0006rem + 3.1392vw, 19.619375rem);
+  color: #FFF;
+  font-style: normal;
+  line-height: normal;
+  
+}
+/* .dashboard-cards-collection-back-card {
+  max-height: 39vh;
+  position: absolute;
+  z-index: -1;
+  left: 15px;
+  top: 42vh;
+} */
+/* .dashboard-cards-collection-back-card-1 {
+  max-height: 39vh;
+  position: absolute;
+  z-index: -2;
+  left: 20vh;
+  top: 42vh;
+} */
+
+/* conditionally changing css for back-card */
+/* .dashboard-cards-collection-back-card-changesize{
+  display: none;
+} 
+.dashboard-cards-collection-back-card-1-changesize{
+  display: none;
+}  */
+
+.dashboard-event-cards_letsgo_parent{
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 88vh;
+  left: 57vw;
+  
+}
+
+.dashboard-event-cards_letsgo_content1{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px
+}
+
+.dashboard-event-cards_letsgo_content1 p{
+  font-size: clamp(0.428125rem, -0.0004rem + 6.8572vw, 42.856875rem);
+  color: #FFF;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.dashboard-event-cards_letsgo_content2{
+  width: 100%;
+}
+
+.dashboard-event-cards_letsgo_content2 p{
+  font-size: clamp(0.285625rem, -0.0001rem + 3.5714vw, 28.57125rem);
+  color: #FFF;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dashboard-cards-collectionsize{
+  background-color: blueviolet;
+  font-size: small;
+}
+
+.dashboard-event-cards-bestbuy{
+  position: absolute;
+    top: 66vh;
+    left:1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.dashboard-event-cards-bestbuy .smalldots{
+  width: 13%;
+    margin-left: 15px;
+}
+.dashboard-event-cards-bestbuy .bestbuy{
+  width: 80%;
+    margin-left: 15px;
+}
+
+/* let's go footer css */
+.dashboard-event-cards-Lets-go-popup{
+  width: 100%;
+  padding: 8px 34px 28px 46px;
+  border-radius: 16px 16px 0px 0px;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-blend-mode: overlay;
+  backdrop-filter: blur(16.01167297363281px);
+  background-color: rgba(255, 255, 255, 0.3);
+  top: 72vh;
+  z-index: 200;
+}
+.HomeIndicatorimg {
+  width: 134px;
+  max-width: 100%;
+  aspect-ratio: 26.8;
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  align-self: center;
+}
+.dashboard-event-cards-Lets-go-popup-header{
+  color: #fff;
+  align-self: center;
+  margin-top: 24px;
+  white-space: nowrap;
+  font: 500 18px Satoshi Variable, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+
+.dashboard-event-cards-Lets-go-popup-header span{
+  color: rgba(243,243,243,1)
+}
+.Lets-go-popup-days1{
+  margin-top: 23px;
+  margin-left:84px;
+  color: #bcbcbc;
+  white-space: nowrap;
+  font: 500 18px Satoshi Variable, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.Lets-go-popup-leftvector{
+  margin-top: 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  gap: 20px;
+}
+.leftvectorimg{
+  width: 16px;
+  max-width: 100%;
+  aspect-ratio: 0.57;
+  object-fit: contain;
+  object-position: center;
+  fill: var(--White, #fff);
+  filter: drop-shadow(0px 0px 6.831px rgba(255, 255, 255, 0.45));
+  overflow: hidden;
+  align-self: start;
+ 
+}
+.Lets-go-popup-days2{
+  justify-content: center;
+  color: var(--White, #fff);
+  text-align: center;
+  align-self: start;
+  font: 700 38px Satoshi Variable, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.Lets-go-popup-nodays{
+  color: var(--White, #fff);
+  text-align: center;
+  align-self: start;
+  margin-top: 5px;
+  font: 700 28px Satoshi Variable, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.RightVectorimg{
+  width: 16px;
+  max-width: 100%;
+  margin: auto 0;
+  aspect-ratio: 0.57;
+  object-fit: contain;
+  object-position: center;
+  fill: var(--White, #fff);
+  filter: drop-shadow(0px 0px 6.831px rgba(255, 255, 255, 0.45));
+  overflow: hidden;
+  align-self: center;
+  
+}
+.Lets-go-popup-footer{
+  width: 122px;
+  max-width: 100%;
+  margin-top: 19px;
+  margin-left: -22px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.Lets-go-popup-footer-days {
+  justify-content: center;
+  color: #bcbcbc;
+  text-align: center;
+  font: 500 18px Satoshi Variable, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.Lets-go-popup-footer-hours {
+  justify-content: center;
+  color: #bcbcbc;
+  text-align: center;
+  font: 500 16px Satoshi Variable, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+
+
+.event-pop-hover{
+  color: rgb(0, 26, 60) !important;
+}
+
+/* dashboardcardmode */
+.dashboard-card-mode-setting {
+  width: clamp(170px,50%,500px);
+  height: 42px;
+  padding: 16px 8px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  backdrop-filter: blur(41px);
+  background-blend-mode: overlay;
+}
+
+
+
+.dashboard-card-mode-setting-heart-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-card-mode-setting-heart-circle img {
+  height: 60%;
+}
+
+.dashboard-card-mode-setting-text {
+  width: 65%;
+  font-size: 9px;
+  color: white;
+}
+
+.dashboard-card-mode-setting-text-1 {
+  padding-bottom: 3px;
+  font-size: clamp(0.21375rem, -0.0005rem + 3.4286vw, 21.428125rem);
+  color: #FFF;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.dashboard-card-mode-setting-text-2 {
+  font-size: clamp(0.160625rem, -0.0001rem + 2.5714vw, 16.07125rem);
+  color: #FFF;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.113px;
+}

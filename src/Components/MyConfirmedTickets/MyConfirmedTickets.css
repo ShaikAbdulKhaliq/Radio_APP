@@ -1,0 +1,157 @@
+.My_confirmed_Tickets_parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+ }
+ 
+
+ .My_confirmed_Tickets_parent_header{
+  width: 100%;  
+  padding: 0 13px;
+  margin-top: 5%;
+  display: flex;
+    gap:15px
+ }
+
+ .My_Confirmed_Tickets_content{
+    color: #FFF;
+
+/* Medium/16px */
+/* font-family: Satoshi Variable; */
+font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+
+
+ .My_Confirmed_Tickets_Search_Box{
+      width: 100%;
+      padding: 0 9px;
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      align-items: center;
+ }
+
+
+ .My_Confirmed_Tickets_Payment_arrow_left{
+    width:2.5rem;
+    height: 2rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    border: 1px dotted #797979;
+   
+}
+
+.My_Confirmed_Tickets_Tag{
+  width: 100%;
+    max-width: 400px; /* Set a maximum width for responsiveness */
+    margin: 0 auto; /* Center the div horizontally */
+    position: relative;
+    
+}
+
+.My_Confirmed_Tickets_Tag input{
+      width: 100%;
+      padding: 10px; /* Adjust as needed */
+      border-bottom: 1px solid #FFF;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      background-color:transparent;
+}
+
+.My_Confirmed_Tickets_Tag input::placeholder{
+    color: #FFF;
+    font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);    
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.My_Confirmed_Tickets_Tag img{
+  width: 16px; /* Adjust the size as needed */
+  height: auto;
+    position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+     
+}
+
+.select-container {
+    width: 90%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+  }
+  
+  .select-container select {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 0.1px solid #FFF;
+    box-sizing: border-box;
+    appearance: none;
+    background: transparent;
+    background-image: url("../../../public/images/MyConfirmedTicketsVector.png");
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    outline: none; /* Remove outline on focus */
+    appearance: none;
+  }
+  
+  /* .select-container select:focus {
+    border-bottom: none; 
+  } */
+  
+  .select-container select[name="Tours"] {
+    /* Styles specific to the select element with name="Tours" */
+    /* For example: */
+    color: #FFF;
+    font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);    
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .select-container select[name="Events"] {
+    /* Styles specific to the select element with name="Tours" */
+    /* For example: */
+    color: #FFF;
+    font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);    
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .select-container select[name="Concerts"] {
+    /* Styles specific to the select element with name="Tours" */
+    /* For example: */
+    color: #FFF;
+    font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);    
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .select-container select[name="Dining Reservations"] {
+    /* Styles specific to the select element with name="Tours" */
+    /* For example: */
+    color: #FFF;
+    font-size: clamp(0.285625rem, -0.0001rem + 4.5714vw, 28.57125rem);    
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  select option{
+    display: none;
+    border: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+   

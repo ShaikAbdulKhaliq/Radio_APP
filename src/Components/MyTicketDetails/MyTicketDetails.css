@@ -1,0 +1,150 @@
+.My_Ticket_details_parent {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.My_Ticket_header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.My_Ticket_arrow_left {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    border: 1px dotted #797979;
+
+}
+
+.My_Ticket_para {
+    margin-left: 4%;
+    color: #FFFFFF;
+    font-size: clamp(16px, 4vw, 24px);
+
+}
+
+.My_Ticket_Micro_Detais {
+    width: 100%;
+    height: 410px;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url("../../../public/images/MyTicketDetailsVector\ 1955.png");
+    background-size: 99% 99%;
+    background-repeat: no-repeat;
+}
+
+.My_Ticket_Micro_Detais_Parent {
+    width: 100%;
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.My_Ticket_Micro_Detais_heading p {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#a22 {
+    margin-left: 80%;
+}
+
+.My_Ticket_Micro_Detais_Qr_code_timings {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.My_Ticket_Date_Timings {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.My_Ticket_Date {
+    color: #FFF;
+    font-size: 1rem;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+
+}
+
+.My_Ticket_Timings {
+    color: #969696;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img_line img {
+    width: 100%;
+    text-align: center;
+}
+
+.My_Ticket_Booking_Id_Place {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.My_Ticket_Font_Styles1 {
+    color: #B0B0B0;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.My_Ticket_Font_Styles2 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.My_Ticket_Download_btn {
+    width: 100%;
+    margin-top: 4%;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+.My_Ticket_Download_btn button {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px;
+    color: #0E3270;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.144px;
+}

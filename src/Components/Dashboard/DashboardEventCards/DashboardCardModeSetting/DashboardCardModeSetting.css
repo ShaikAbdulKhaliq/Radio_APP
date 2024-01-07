@@ -1,0 +1,52 @@
+.dashboard-card-mode-setting {
+  width: clamp(170px,50%,500px);
+  height: 42px;
+  padding: 16px 8px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  backdrop-filter: blur(41px);
+  background-blend-mode: overlay;
+}
+
+
+
+.dashboard-card-mode-setting-heart-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-card-mode-setting-heart-circle img {
+  height: 60%;
+}
+
+.dashboard-card-mode-setting-text {
+  width: 65%;
+  font-size: 9px;
+  color: white;
+}
+
+.dashboard-card-mode-setting-text-1 {
+  padding-bottom: 3px;
+  font-size: clamp(0.21375rem, -0.0005rem + 3.4286vw, 21.428125rem);
+  color: #FFF;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.dashboard-card-mode-setting-text-2 {
+  font-size: clamp(0.160625rem, -0.0001rem + 2.5714vw, 16.07125rem);
+  color: #FFF;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.113px;
+}

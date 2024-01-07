@@ -1,0 +1,130 @@
+.event-more-details-parent{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.event-more-details {
+  width: 90%;
+  height: 89vh;
+  padding: 5px 16px;
+  padding-top: 36px;
+  border-radius: 7px;
+  background-color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: relative;
+}
+
+.event-more-details-logo-header{
+  width: 100%;
+  height: 32px;
+  padding: 0px 8px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.event-more-details-logo {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px dotted white;
+  border-radius: 50%;
+}
+
+.event-more-details-logo img {
+  width: 50%;
+}
+
+.event-more-details-searchimg {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid white;
+}
+
+.event-more-details-searchimg > input {
+  width: 100%;
+  height: 80%;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+}
+
+.event-more-details-searchimg > input::placeholder {
+  color: #fff;
+}
+
+.event-more-details-searchimg > svg {
+  height: 100%;
+}
+
+
+.event-more-details .artist-details {
+  margin-bottom: 16px;
+  font-size: 12px;
+  line-height: 21px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.event-more-details-row-1,
+.event-more-details-row-2,
+.event-more-details-row-3,
+.event-more-details-row-4,
+.event-more-details-row-5,
+.event-more-details-row-6
+{
+  width: 100%;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.event-more-details-row-7{
+  width: 100%;
+  height: 17%;
+  margin-bottom: 8px;
+  margin-top: 17%;
+  display: flex;
+  flex-direction: column;
+  background: url("../../../../public/svg/EventMoreDetailsmap.svg");
+  background-repeat: no-repeat;
+}
+
+.event-more-details-row-part {
+  font-size: clamp(11px, calc(8px + 3 * ((100vw - 300px) / 58)), 14px);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: normal;
+}
+
+.event-more-details-row-part img {
+  max-height: 16px;
+}
+
+.event-more-details-row-7 img {
+  max-width: 100%;
+  /* object-fit: contain; */
+  border-radius: 8px;
+}

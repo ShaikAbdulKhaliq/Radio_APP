@@ -1,0 +1,108 @@
+.entry-page-phone {
+  width: 100%;
+  margin-top: 50%;
+}
+
+.logo-mainContainer {
+  height: 40%;
+}
+
+.img-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.logoImg {
+  max-width: 100%;
+  align-items: flex-end;
+  
+}
+
+
+.inputPhNo {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  align-self: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #fff;
+}
+
+.info-Container-otp{
+  width: 100%;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+}
+
+.infoTag {
+  width: 85%;
+  color: #cacaca;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.buttonContainer {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonTagContainer {
+  width: 90%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonTag-otp {
+  width: 100%;
+  max-width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  color: #0e3270;
+  white-space: nowrap;
+  justify-content: center;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+
+/* =================================================================================== */
+
+.entry-page-otp-boxes-row {
+  width: 90%;
+  margin: 40px auto 24px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.otpboxhover{
+  border: 2px solid black;
+}
+.entry-page-otp-box {
+  height: min(20vw, 78px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.otpbg{
+  width: 100%;
+  height:100vh;
+  background: url("../../../public/images/EntryPageBg1.png");
+  background-size: 99.5% 50%;
+  background-position: bottom center; 
+  background-repeat:no-repeat; 
+  overflow: hidden; 
+  
+}
